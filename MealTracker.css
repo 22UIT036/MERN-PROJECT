@@ -1,0 +1,128 @@
+/* src/App.css */
+
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h4, h6 {
+    color: #1b5e20;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #388e3c;
+  }
+  
+  /* Box Styling */
+  .meal-tracker-box {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .meal-tracker-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Avatar Styling */
+  .avatar-image {
+    margin: 0 auto 20px;
+    display: block;
+    border: 4px solid #4caf50;
+    transition: border-color 0.3s ease;
+  }
+  
+  .avatar-image:hover {
+    border-color: #388e3c;
+  }
+  
+  /* Input and Select */
+  .MuiFormControl-root {
+    margin: 20px 0 !important;
+  }
+  
+  .MuiInputLabel-root {
+    color: #1b5e20 !important;
+  }
+  
+  .MuiInputBase-input {
+    padding: 10px 14px;
+    border-radius: 4px;
+    border: 2px solid #4caf50;
+    transition: border-color 0.3s;
+  }
+  
+  .MuiInputBase-input:focus {
+    border-color: #388e3c;
+  }
+  
+  /* Meal Log */
+  .meal-log-paper {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .meal-log-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .meal-log-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .meal-tracker-box, .meal-log-paper {
+      padding: 15px;
+    }
+  }
+
+.dish-image-container {
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .dish-image-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #388e3c;
+  }
+  
+  .MuiTypography-body1 {
+    color: #4caf50;
+    font-weight: bold;
+  }
+    
